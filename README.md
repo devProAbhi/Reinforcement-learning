@@ -4,13 +4,13 @@ Reinforcement learning is a machine learning training method based on rewarding 
 Here in short there is a interaction between Agent which performs action and Environment which give Reward to agent
 in chess example, pieces are agent and board is a environment
   
-# -->>Reinforcement learning elements are as follows:
+## -->>Reinforcement learning elements are as follows:
 Policy
 Reward function
 Value function
 Model of the environment
 
-# Terminologies used in Reinforcement Learning
+## Terminologies used in Reinforcement Learning
 Terminologies in RL - Techvidvan, reinforcement learning
 Terminologies in RL – Techvidvan
 Agent – is the sole decision-maker and learner
@@ -29,7 +29,7 @@ Value Function – The value of state shows up the reward achieved starting from
 
 Model – Every RL agent doesn’t use a model of its environment. The agent’s view maps state-action pairs probability distributions over the states
 
-# Reinforcement Learning Workflow
+## Reinforcement Learning Workflow
 
 – Create the Environment
 
@@ -42,7 +42,7 @@ Model – Every RL agent doesn’t use a model of its environment. The agent’s
 – Deploy the policy
 
 
-# Characteristics of Reinforcement Learning
+## Characteristics of Reinforcement Learning
 – No supervision, only a real value or reward signal
 
 – Decision making is sequential
@@ -54,7 +54,7 @@ Model – Every RL agent doesn’t use a model of its environment. The agent’s
 – The following data it receives is determined by the agent’s actions
 
 
-# Reinforcement Learning Algorithms
+## Reinforcement Learning Algorithms
 There are 3 approaches to implement reinforcement learning algorithms
 
 Value-Based – The main goal of this method is to maximize a value function. Here, an agent through a policy expects a long-term return of the current states.
