@@ -58,8 +58,8 @@ Model of the environment
 ## Reinforcement Learning Algorithms
 There are 3 approaches to implement reinforcement learning algorithms
 
-Value-Based – The main goal of this method is to maximize a value function. Here, an agent through a policy expects a long-term return of the current states.
+--> Value-Based – The main goal of this method is to maximize a value function. Here, an agent through a policy expects a long-term return of the current states.
 
-Policy-Based – In policy-based, you enable to come up with a strategy that helps to gain maximum rewards in the future through possible actions performed in each state. Two types of policy-based methods are deterministic and stochastic.
+--> Policy-Based – In policy-based, you enable to come up with a strategy that helps to gain maximum rewards in the future through possible actions performed in each state. Two types of policy-based methods are deterministic and stochastic.
 
-Model-Based – In this method, we need to create a virtual model for the agent to help in learning to perform in each specific environment
+--> Model-Based – In this method, we need to create a virtual model for the agent to help in learning to perform in each specific environment
