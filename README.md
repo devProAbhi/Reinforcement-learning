@@ -44,3 +44,9 @@ State, s
 s1->s2->s2->s3 ....->sn
 ```
 
+## How Does Reinforcement Learning Work?
+Start in a state.
+Take an action.
+Receive a reward or penalty from the environment.
+Observe the new state of the environment.
+Update your policy to maximize future rewards.
