@@ -4,49 +4,61 @@ Reinforcement learning is a machine learning training method based on rewarding 
 Here in short there is a interaction between Agent which performs action and Environment which give Reward to agent
 in chess example, pieces are agent and board is a environment
   
--->>Reinforcement learning elements are as follows:
+# -->>Reinforcement learning elements are as follows:
 Policy
 Reward function
 Value function
 Model of the environment
 
-Policy: Policy defines the learning agent behavior for given time period. It is a mapping from perceived states of the environment to actions to be taken when in those states.
-```
-Policy, Pie(s,a)
-Probability(a=a|s=s)
-```
+# Terminologies used in Reinforcement Learning
+Terminologies in RL - Techvidvan, reinforcement learning
+Terminologies in RL – Techvidvan
+Agent – is the sole decision-maker and learner
 
-Reward function: Reward function is used to define a goal in a reinforcement learning problem.A reward function is a function that provides a numerical score based on the state of the environment
-```
-Reward, r
-r1->r2->r2->r3 ....->rn
-```
+Environment – a physical world where an agent learns and decides the actions to be performed
 
-Value function: Value functions specify what is good in the long run. The value of a state is the total amount of reward an agent can expect to accumulate over the future, starting from that state.
-```
-Value, V(s)
+Action – a list of action which an agent can perform
 
-```
+State – the current situation of the agent in the environment
 
-Model of the environment: Models are used for planning.
+Reward – For each selected action by agent, the environment gives a reward. It’s usually a scalar value and nothing but feedback from the environment
 
-⚫ Credit assignment problem: Reinforcement learning algorithms learn to generate an internal value for the intermediate states as to how good they are in leading to the goal. The learning decision maker is called the agent. The agent interacts with the environment that includes everything outside the agent. 
+Policy – the agent prepares strategy(decision-making) to map situations to actions.
 
-The agent has sensors to decide on its state in the environment and takes action that modifies its state.
+Value Function – The value of state shows up the reward achieved starting from the state until the policy is executed
 
-⚫ The reinforcement learning problem model is an agent continuously interacting with an environment. The agent and the environment interact in a sequence of time steps. At each time step t, the agent receives the state of the environment and a scalar numerical reward for the previous action, and then the agent then selects an action.
+Model – Every RL agent doesn’t use a model of its environment. The agent’s view maps state-action pairs probability distributions over the states
 
-Reinforcement learning is a technique for solving Markov decision problems.
+# Reinforcement Learning Workflow
 
-⚫ Reinforcement learning uses a formal framework defining the interaction between a learning agent and its environment in terms of states, actions, and rewards. This framework is intended to be a simple way of representing essential features of the artificial intelligence problem.
-```
-State, s
-s1->s2->s2->s3 ....->sn
-```
+– Create the Environment
 
-## How Does Reinforcement Learning Work?
-Start in a state.
-Take an action.
-Receive a reward or penalty from the environment.
-Observe the new state of the environment.
-Update your policy to maximize future rewards.
+– Define the reward
+
+– Create the agent
+
+– Train and validate the agent
+
+– Deploy the policy
+
+
+# Characteristics of Reinforcement Learning
+– No supervision, only a real value or reward signal
+
+– Decision making is sequential
+
+– Time plays a major role in reinforcement problems
+
+– Feedback isn’t prompt but delayed
+
+– The following data it receives is determined by the agent’s actions
+
+
+# Reinforcement Learning Algorithms
+There are 3 approaches to implement reinforcement learning algorithms
+
+Value-Based – The main goal of this method is to maximize a value function. Here, an agent through a policy expects a long-term return of the current states.
+
+Policy-Based – In policy-based, you enable to come up with a strategy that helps to gain maximum rewards in the future through possible actions performed in each state. Two types of policy-based methods are deterministic and stochastic.
+
+Model-Based – In this method, we need to create a virtual model for the agent to help in learning to perform in each specific environment
