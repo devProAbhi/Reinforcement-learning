@@ -10,24 +10,25 @@ Reward function
 Value function
 Model of the environment
 
+
 ## Terminologies used in Reinforcement Learning
-Terminologies in RL - Techvidvan, reinforcement learning
-Terminologies in RL – Techvidvan
-Agent – is the sole decision-maker and learner
 
-Environment – a physical world where an agent learns and decides the actions to be performed
+1) Agent – is the sole decision-maker and learner
 
-Action – a list of action which an agent can perform
+2) Environment – a physical world where an agent learns and decides the actions to be performed
 
-State – the current situation of the agent in the environment
+3) Action – a list of action which an agent can perform
 
-Reward – For each selected action by agent, the environment gives a reward. It’s usually a scalar value and nothing but feedback from the environment
+4) State – the current situation of the agent in the environment
 
-Policy – the agent prepares strategy(decision-making) to map situations to actions.
+5) Reward – For each selected action by agent, the environment gives a reward. It’s usually a scalar value and nothing but feedback from the environment
 
-Value Function – The value of state shows up the reward achieved starting from the state until the policy is executed
+6) Policy – the agent prepares strategy(decision-making) to map situations to actions.
 
-Model – Every RL agent doesn’t use a model of its environment. The agent’s view maps state-action pairs probability distributions over the states
+7) Value Function – The value of state shows up the reward achieved starting from the state until the policy is executed
+
+8) Model – Every RL agent doesn’t use a model of its environment. The agent’s view maps state-action pairs probability distributions over the states
+
 
 ## Reinforcement Learning Workflow
 
